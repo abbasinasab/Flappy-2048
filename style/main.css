@@ -8,7 +8,7 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 40px 0; }
 
 .heading:after {
   content: "";
@@ -18,7 +18,7 @@ body {
 h1.title {
   font-size: 50px;
   font-weight: bold;
-  margin: 25px 0 0 0;
+  margin: 0;
   display: block;
   float: left; }
 
@@ -320,6 +320,7 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
+background: #f0f url('../br.png');
     text-align: center;
     font-weight: bold;
     z-index: 10;
@@ -383,8 +384,13 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
+    color: #000000;
     background: #3c3a32;
+	background: #f0f url('../fbt.png');
+	opacity:0.6;
+  filter:alpha(opacity=60);
+	line-height: 190px;
+	text-align: center;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
