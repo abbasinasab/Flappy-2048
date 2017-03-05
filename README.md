@@ -1,3 +1,4 @@
-# Flappy 2048... logarithmic?
+# 2048 and FREE THE FLAPPY BIRD... yet logarithmic so you can win and free the!
 
-Yes. This is a fork of [Flappy 2048](https://github.com/hczhcz/Flappy-2048), but it's logarithmic. i.e., it goes 1, 2, 4, 8, 16, not 0, 1, 2, 3, 4,. :3
+Play! [Flappy 2048](http://abbasinasab.github.io/Flappy-2048/)
+
